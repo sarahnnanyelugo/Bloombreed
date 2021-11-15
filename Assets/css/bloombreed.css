@@ -60,7 +60,7 @@ background-color:rgb(3,52,98)!important;
     text-transform:uppercase;
     float:inline-end;
     display:inline;
-    padding:15px 15px 15px 15px;
+    padding:15px 15px 0px 15px;
 
 }
 
@@ -103,7 +103,7 @@ background-color:rgb(3,52,98)!important;
     display:none;
     opacity:0;
     position:fixed;
-    width: 65%;
+    width: 67%;
     height:350px !important;
     right:15px;
     margin-left:25%;
@@ -116,6 +116,69 @@ background-color:rgb(3,52,98)!important;
 
 
   }
+  .dropdown2-content-dark::before {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: -15px;
+    left:10%;
+    background-color:white;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+  }
+
+  .dropdown2-content-dark.about::before {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: -15px;
+    left:2%;
+    background-color:white;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+  }
+
+  .dropdown2-content-dark.learning::before {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: -15px;
+    left:30%;
+    background-color:white;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+  }
+
+
+  .dropdown2-content-dark.student::before {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: -15px;
+    left:40%;
+    background-color:white;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+  }
+  .dropdown2-content-dark.children::before {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: -15px;
+    left:70%;
+    background-color:white;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+  }
+
+
+
+
   .dropdown2-content-dark a{
     color:black !important;
     font-size:12px !important;
@@ -154,8 +217,8 @@ background-color:rgb(3,52,98)!important;
     color: white;
     font-size:10px;
     display: block;
-    padding: 20px 10px 20px 10px;
-    margin-top:2px;
+    padding: 13px 3px 13px 3px;
+    margin-top:1px;
     text-transform:uppercase;
 
   }
@@ -252,24 +315,41 @@ color:white;
   background-size:cover;
   margin-top:30px;
   margin-bottom:50px;
+  transition: transform .0.1s;
 
+}
+#acts1:hover{
+  -ms-transform: scale(0.9); /* IE 9 */
+  -webkit-transform: scale(0.9); /* Safari 3-8 */
+  transform: scale(0.9);
 }
 #acts2{
   height:220px;
   margin-left:20px;
   margin-top:30px;
+  transition: transform .0.1s;
 
   background-image: url("../img/college.png");
   background-size:cover;
 }
-
-#acts3{
+#acts2:hover{
+  -ms-transform: scale(0.9); /* IE 9 */
+  -webkit-transform: scale(0.9); /* Safari 3-8 */
+  transform: scale(0.9);
+}
+#acts3 {
   width:100%;
   margin-top:30px;
   height:250px;
   background-image: url("../img/hardware.png");
   background-size:cover;
+  transition: transform .0.1s;
 
+}
+#acts3:hover{
+  -ms-transform: scale(0.9); /* IE 9 */
+  -webkit-transform: scale(0.9); /* Safari 3-8 */
+  transform: scale(0.9);
 }
 
 #acts4{
@@ -279,7 +359,22 @@ color:white;
   background-image: url("../img/charity.png");
   background-size:cover;
   left:30px;
+  transition: transform .0.1s;
 
+}
+#acts4:hover{
+  -ms-transform: scale(0.9); /* IE 9 */
+  -webkit-transform: scale(0.9); /* Safari 3-8 */
+  transform: scale(0.9);
+}
+.acts5{
+  transition: transform .0.1s;
+
+}
+.acts5:hover{
+  -ms-transform: scale(0.9); /* IE 9 */
+  -webkit-transform: scale(0.9); /* Safari 3-8 */
+  transform: scale(0.9);
 }
 
 #join{
@@ -288,7 +383,8 @@ color:white;
   margin-right:0 !important;
   background-image: url("../img/complab.png");
   background-size:cover;
-  margin-bottom:40px;
+  margin-bottom:80px;
+  margin-top:60px;
   /* opacity:0.6; */
 }
 #join h4{
@@ -324,9 +420,8 @@ color:white;
 
 }
 .table ul{
-  background-color:rgb(243, 243, 253);
+  background-color:rgb(245,245,245);
   list-style-type: none;
-  padding: 5; /* Remove padding */
    margin-left: 0;
   padding-bottom:30px;
   padding-right:30px;
@@ -334,8 +429,8 @@ color:white;
 }
 
   .table ul li{
-  border-bottom: 1px solid rgb(129, 125, 125);
-  padding: 15px;
+  border-bottom: 2px solid rgb(210,221,222);
+  padding: 10px;
 }
 
 .table a{
@@ -348,7 +443,6 @@ color:white;
 .table a:hover{
   color:rgb(179,47,49) !important;
 text-decoration:none;
-  font-weight:bold;
 }
 
 
