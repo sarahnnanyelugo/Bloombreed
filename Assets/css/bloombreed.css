@@ -91,7 +91,7 @@ background-color:rgb(3,52,98)!important;
     outline: none;
     padding: 12px;
     background-color: inherit;
-    margin-right:17px;
+    margin-right:10px;
     margin-bottom:20px;
 
     color:white !important;
@@ -103,7 +103,7 @@ background-color:rgb(3,52,98)!important;
     display:none;
     opacity:0;
     position:fixed;
-    width: 67%;
+    width: 71%;
     height:350px !important;
     right:15px;
     margin-left:25%;
@@ -146,7 +146,7 @@ background-color:rgb(3,52,98)!important;
     height: 40px;
     width: 40px;
     top: -15px;
-    left:25%;
+    left:21%;
     background-color:white;
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 
@@ -159,7 +159,7 @@ background-color:rgb(3,52,98)!important;
     height: 40px;
     width: 40px;
     top: -15px;
-    left:40%;
+    left:35%;
     background-color:white;
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 
@@ -170,13 +170,23 @@ background-color:rgb(3,52,98)!important;
     height: 40px;
     width: 40px;
     top: -15px;
-    left:56%;
+    left:51%;
     background-color:white;
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 
   }
 
+  .dropdown2-content-dark.gallery::before {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: -15px;
+    left:65%;
+    background-color:white;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 
+  }
 
 
   .dropdown2-content-dark a{
@@ -475,6 +485,24 @@ text-decoration:none;
     margin-top:30px;
 }
 
+
+#join3{
+  width:100%;
+  min-height:350px;
+  margin-right:0 !important;
+  background-image: url("../img/college.png");
+  background-size:cover;
+  margin-bottom:40px;
+  /* opacity:0.6; */
+}
+#join3 h4{
+  border-top:solid 2px  rgb(209, 205, 205);
+   border-bottom:solid 2px rgb(209, 205, 205);
+    padding:20px 95px 20px 95px;
+    color:white;
+    font-weight:bolder;
+    margin-top:30px;
+}
 
 
 footer ul li  {
