@@ -236,6 +236,8 @@ background-color:rgb(3,52,98)!important;
   .sidenav a:hover {
     color: #064579;
     background-color:white !important;
+border: solid 1px rgb(179,47,49) !important;
+
   }
 
 
