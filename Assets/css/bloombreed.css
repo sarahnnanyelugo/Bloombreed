@@ -507,9 +507,9 @@ text-decoration:none;
   width:100%;
   min-height:400px;
   margin-right:0 !important;
-  background-image: url("../img/cheque.png");
+  background-image: url("../img/cheque2.png");
   background-size:cover;
-  margin-bottom:40px;
+  margin-bottom:60px;
   /* opacity:0.6; */
 }
 #join4 h4{
@@ -530,6 +530,23 @@ text-decoration:none;
   /* opacity:0.6; */
 }
 #join5 h4{
+  border-top:solid 2px  rgb(209, 205, 205);
+   border-bottom:solid 2px rgb(209, 205, 205);
+    padding:20px 95px 20px 95px;
+    color:white;
+    font-weight:bolder;
+    margin-top:30px;
+}
+#join6{
+  width: 1920px;
+  height: 621px;
+  background: transparent url('../img/college2.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom:60px;
+
+  /* opacity:0.6; */
+}
+#join6 h4{
   border-top:solid 2px  rgb(209, 205, 205);
    border-bottom:solid 2px rgb(209, 205, 205);
     padding:20px 95px 20px 95px;
