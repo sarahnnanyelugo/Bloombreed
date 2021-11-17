@@ -91,7 +91,6 @@ background-color:rgb(3,52,98)!important;
     outline: none;
     padding: 12px;
     background-color: inherit;
-    margin-right:10px;
     margin-bottom:20px;
 
     color:white !important;
@@ -555,6 +554,159 @@ text-decoration:none;
     color:white;
     font-weight:bolder;
     margin-top:30px;
+}
+
+#join7{
+  width: 1920px;
+  height: 621px;
+  background: transparent url('../img/science2.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom:60px;
+  background-size:cover;
+
+  /* opacity:0.6; */
+}
+#join7 h4{
+  border-top:solid 2px  rgb(209, 205, 205);
+   border-bottom:solid 2px rgb(209, 205, 205);
+    padding:20px 95px 20px 95px;
+    color:white;
+    font-weight:bolder;
+    margin-top:30px;
+}
+#join8{
+  width: 1920px;
+  height: 621px;
+  background: transparent url('../img/singf.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom:60px;
+  background-size:cover;
+
+}
+#join8 h4{
+  border-top:solid 2px  rgb(209, 205, 205);
+   border-bottom:solid 2px rgb(209, 205, 205);
+    padding:20px 95px 20px 95px;
+    color:white;
+    font-weight:bolder;
+    margin-top:30px;
+}
+#join9{
+  width: 1920px;
+  height: 621px;
+  background: transparent url('../img/cookf.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom:60px;
+  background-size:cover;
+
+}
+#join9 h4{
+  border-top:solid 2px  rgb(209, 205, 205);
+   border-bottom:solid 2px rgb(209, 205, 205);
+    padding:20px 95px 20px 95px;
+    color:white;
+    font-weight:bolder;
+    margin-top:30px;
+}
+#join10{
+  width: 1920px;
+  height: 621px;
+  background: transparent url('../img/libf.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom:60px;
+  background-size:cover;
+
+}
+#join10 h4{
+  border-top:solid 2px  rgb(209, 205, 205);
+   border-bottom:solid 2px rgb(209, 205, 205);
+    padding:20px 95px 20px 95px;
+    color:white;
+    font-weight:bolder;
+    margin-top:30px;
+}
+#join11{
+  width: 1920px;
+  height: 621px;
+  background: transparent url('../img/landingf.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom:60px;
+  background-size:cover;
+
+}
+#join11 h4{
+  border-top:solid 2px  rgb(209, 205, 205);
+   border-bottom:solid 2px rgb(209, 205, 205);
+    padding:20px 95px 20px 95px;
+    color:white;
+    font-weight:bolder;
+    margin-top:30px;
+}
+
+#join12{
+  width: 1920px;
+  height: 621px;
+  background: transparent url('../img/laughingf.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom:60px;
+  background-size:cover;
+
+}
+#join12 h4{
+  border-top:solid 2px  rgb(209, 205, 205);
+   border-bottom:solid 2px rgb(209, 205, 205);
+    padding:20px 95px 20px 95px;
+    color:white;
+    font-weight:bolder;
+    margin-top:30px;
+}
+#join13{
+  width: 1920px;
+  height: 621px;
+  background: transparent url('../img/tennis.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom:60px;
+  background-size:cover;
+
+}
+#join13 h4{
+  border-top:solid 2px  rgb(209, 205, 205);
+   border-bottom:solid 2px rgb(209, 205, 205);
+    padding:20px 95px 20px 95px;
+    color:white;
+    font-weight:bolder;
+    margin-top:30px;
+}
+
+#join14{
+  width: 1920px;
+  height: 621px;
+  background: transparent url('../img/tennis.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom:60px;
+  background-size:cover;
+
+}
+#join14 h4{
+  border-top:solid 2px  rgb(209, 205, 205);
+   border-bottom:solid 2px rgb(209, 205, 205);
+    padding:20px 95px 20px 95px;
+    color:white;
+    font-weight:bolder;
+    margin-top:30px;
+}
+
+
+.btn.red{
+  border:solid 2px rgb(179,47,49);
+  background-color:white;
+  color:rgb(179,47,49);
+  font-weight:bolder;
+}
+.btn.red:hover{
+  background-color:rgb(179,47,49);
+  color:white;
+  font-weight:bolder;
 }
 footer ul li  {
   font-size:10px !important ;
