@@ -1,25 +1,9 @@
-/* body{
-    transition: all 200ms;
-
-} */
+html{
+  scroll-behavior:smooth;
+}
 .activenav{
-/* color:blue !important; */
-color:tomato !important;
-font-size:16px !important;
-    /* background-color:rgb(240, 240, 240) !important;
-    color:blue !important;
-    box-shadow:0 20px 0 0px #333 !important;
-    height:60px;
-    top:0px;
-    margin-top:5px !important;
-    overflow:visible;
-    z-index:999;
-    position:relative;
-    border:2px solid #333; */
+color:rgb(179,47,49) !important;
 
-    /* overflow:visible !important; */
-   /* -webkit-clip-path:polygon(50% 100%, 100% 85%, 100% 0, 0 0, 0 85%);
-    clip-path:polygon(50% 100%, 100% 85%, 100% 0, 0 0, 0 85%); */
   }
 
 
@@ -30,7 +14,10 @@ font-size:16px !important;
   border-right: 40px solid rgba(255, 255, 255, 0);
 }
 
+.navbar-brand img{
+  margin-top:-30px !important;
 
+}
 
 
 #portal{
@@ -91,7 +78,7 @@ background-color:rgb(3,52,98)!important;
     outline: none;
     padding: 12px;
     background-color: inherit;
-    margin-bottom:20px;
+    margin-bottom:45px;
 
     color:white !important;
 
@@ -387,6 +374,26 @@ color:white;
   -webkit-transform: scale(0.9); /* Safari 3-8 */
   transform: scale(0.9);
 }
+
+.analysis{
+  color:white;
+  text-align:center;
+  padding-top:180px;
+   font-size:24px;
+    font-weight:bolder;
+  }
+
+  .analysis2{
+    color:white;
+    text-align:center;
+    padding-top:420px;
+     font-size:24px;
+      font-weight:bolder;
+    }
+
+
+
+
 
 #join{
   width:100%;
@@ -695,8 +702,48 @@ text-decoration:none;
     font-weight:bolder;
     margin-top:30px;
 }
+#join15{
+  width: 1920px;
+  height: 621px;
+  background: transparent url('../img/nativef.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom:60px;
+  background-size:cover;
 
+}
+#join15 h4{
+  border-top:solid 2px  rgb(209, 205, 205);
+   border-bottom:solid 2px rgb(209, 205, 205);
+    padding:20px 95px 20px 95px;
+    color:white;
+    font-weight:bolder;
+    margin-top:30px;
+}
 
+#join16{
+  width: 100%;
+  height: 621px;
+  background: transparent url('../img/libf.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom:60px;
+
+}
+#join16 h4{
+  border-top:solid 2px  rgb(209, 205, 205);
+   border-bottom:solid 2px rgb(209, 205, 205);
+    padding:20px 95px 20px 95px;
+    color:white;
+    font-weight:bolder;
+    margin-top:30px;
+}
+
+.news:hover{
+  background-color:rgb(212, 209, 209);
+}
+.news h4:hover{
+  text-decoration:underline;
+
+}
 .btn.red{
   border:solid 2px rgb(179,47,49);
   background-color:white;
