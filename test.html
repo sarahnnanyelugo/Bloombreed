@@ -7,79 +7,92 @@
     <title>
         BloomBreed School
     </title>
+
+     <link href="Assets/css/bloombreed.css" rel="stylesheet" type="text/css">
     <link href="Assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="Assets/icofont/icofont.min.css" rel="stylesheet">
-    <link href="Assets/css/bloombreed.css" rel="stylesheet" type="text/css">
-    <link href="Assets/fontawesome-free-5.15.3-web/css/fontawesome.min.css" rel="stylesheet">
-    <link href="Assets/css/radialMenu.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="Assets/css/animate.css">
-    <!-- <link rel="stylesheet" href="Assets/css/style.css"> -->
-    <!-- <link rel="stylesheet" href="Assets/css/owl.carousel.min.css"> -->
-    <!-- <link rel="stylesheet" href="Assets/css/owl.theme.default.min.css"> -->
-
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js">
-    <!-- <link href="Assets/css/charlsedale.css" rel="stylesheet" type="text/css"> -->
-    <link href="https://cdn.rawgit.com/filipelinhares/ress/master/dist/ress.min.css" rel="stylesheet" type="text/css">
+  <link href="Assets/fontawesome-free-5.15.3-web/css/fontawesome.min.css" rel="stylesheet">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
-    <!-- <script src="Assets/js/jquery-3-5.min.js"></script> -->
-    <script src="Assets/js/popper.min.js"></script>
-    <script src="Assets/js/bootstrap.min.js"></script>
-<script src="Assets/js/swiper.jquery.min.js"></script>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-    <script src="https://smtpjs.com/v3/smtp.js"> </script>
+     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
 
-<!---the script above is for contacts-->
-
-<style>
-  .slider{
-     position: relative;
-  }
-
-  img {
-     position: absolute;
-     top:0;
-     left:0;
-  }
-</style>
 </head>
 
 
 <body>
 
-<div class="container-fluid">
-  <div class="slider row " width="100%">
-    <img src="Assets/img/landing.png" width="100%">
-    <img src="Assets/img/slide2.jpg" width="100%">
-    <img src="Assets/img/landing.png" width="100%">
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides faded">
+      <div class="numbertext">1 / 3</div>
+      <img src="Assets/img/kids2main.png" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides faded">
+      <div class="numbertext">2 / 3</div>
+      <img src="Assets/img/landing.png" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides faded">
+      <div class="numbertext">3 / 3</div>
+      <img src="Assets/img/tennismain.png" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<script src="Assets/js/custom.js"></script>
-<script src="Assets/js/index.js"></script>
-
-
-<script>
-  var count = 1
-  setInterval(function(){
-    var old= $('#img-' + count);
-    old.fadeOut(2000);
+  <br>
   
-    count++;
-    if (count>3){
-      count = 1
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
+
+
+
+  <script>var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
     }
-  
-    var next= $('#img-' + count);
-    next.fadeIn(2000);
-  }, 5000);
-  
-  
-  </script>
+    
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
 </body>
 </html>

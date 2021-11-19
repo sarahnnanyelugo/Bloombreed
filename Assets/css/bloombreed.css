@@ -1,6 +1,15 @@
 html{
   scroll-behavior:smooth;
 }
+p{
+  font-family:Avenir;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family:New York Small !important ;
+}
+.btn{
+  font-family:Avenir;
+}
 .activenav{
 color:rgb(179,47,49) !important;
 
@@ -84,7 +93,9 @@ background-color:rgb(3,52,98)!important;
 
   }
 
-
+  .dropdown2 .dropbtn2 a:hover{
+  text-decoration:none;
+}
   .dropdown2-content-dark {
     display:none;
     opacity:0;
@@ -283,28 +294,121 @@ border: solid 1px rgb(179,47,49) !important;
 }
 
 
+/* * {box-sizing:border-box}
 
-
-
-
-
-
-#divisions{
-background-color:rgb(3,52,98)!important;
-color:white;
- margin-top:30px;
- padding-top:20px;
- margin-bottom:30px;
-}
-#divisions img{
-  width:100%;
+/* Slideshow container */
+.slideshow-container {
+  width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
-#divisions h3{
-  border-top:solid 2px  rgba(94, 92, 92, 0.5);
-  border-bottom:solid 2px rgba(94, 92, 92, 0.5);
-   padding:17px 0 17px 0;
+/* Hide the images by default */
+.mySlides {
+  display: none;
 }
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 5px !important;
+  width: 25px !important;
+  margin: 0 2px;
+  background-color: white !important;
+  /* border-radius: 50%; */
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: orange !important;
+}
+
+/* Fading animation */
+.faded {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}*/
+
+
+
+
+
+
+#divisions2{
+  color:#191919;
+   margin-top:30px;
+   padding-top:20px;
+   margin-bottom:30px;
+  }
+  #divisions2 img{
+    width:100%;
+  }
+  #divisions2 h6{
+    color:rgb(3,52,98)!important;
+
+  }
+  
+
 
 #acts1{
   width:100%;
@@ -390,6 +494,75 @@ color:white;
      font-size:24px;
       font-weight:bolder;
     }
+
+
+
+    /* Slideshow container */
+
+    
+    /* Hide the images by default */
+    .mySlides2 {
+      display: none;
+    }
+
+    /* Next & previous buttons */
+    .prev1, .next1 {
+      cursor: pointer;
+      position: absolute;
+      top: -25%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: black;
+      font-weight: bold;
+      font-size: 38px;
+      transition: 0.6s ease;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next1 {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    .prev1{
+      right:44px !important;
+    }
+    .dot2 {
+      cursor: pointer;
+      height: 5px !important;
+      width: 25px !important;
+      margin: 0 2px;
+      background-color: white !important;
+      /* border-radius: 50%; */
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active2, .dot2:hover {
+      background-color: orange !important;
+    }
+    
+
+    /* Fading animation */
+    .faded2 {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+    
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+
 
 
 
@@ -776,10 +949,100 @@ footer ul li a{
 
 
 
+/*index slider*/
 
 
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
 
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
 
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
 
 
