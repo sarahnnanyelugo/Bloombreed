@@ -3085,7 +3085,7 @@ carrot:
   search:
     terms:
       - bugs bunny
-      - orange
+      - rgb(237,165,0)
       - vegan
       - vegetable
   styles:

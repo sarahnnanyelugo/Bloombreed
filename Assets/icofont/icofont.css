@@ -4498,7 +4498,7 @@ url("./fonts/icofont.woff") format("woff");
   content: "\eb7c";
 }
 
-.icofont-orange:before
+.icofont-rgb(237,165,0):before
 {
   content: "\eb7d";
 }
