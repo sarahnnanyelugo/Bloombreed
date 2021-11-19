@@ -81,11 +81,11 @@ background-color:rgb(36,43,105)!important;
   }
 
   .dropdown2 .dropbtn2 {
-    font-size: 14px;
+    font-size: 12px;
     font-weight:bolder !important;
     border: none;
     outline: none;
-    padding: 10px;
+    padding: 12px;
     background-color: inherit;
     margin-bottom:45px;
 
@@ -94,11 +94,11 @@ background-color:rgb(36,43,105)!important;
   }
 
   .dropdown2 .dropbtn2 a {
-    font-size: 14px !important;
+    font-size: 12px !important;
     font-weight:bolder !important;
     border: none !important;
     outline: none;
-    padding: 10px !important;
+    padding: 12px !important;
     background-color: inherit;
     margin-bottom:45px !important;
 
