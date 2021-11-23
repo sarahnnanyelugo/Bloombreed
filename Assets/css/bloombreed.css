@@ -1114,10 +1114,11 @@ footer ul li a{
 }
 /* When you mouse over the navigation links, change their color */
 .sidenav .border1:hover {
-  background-color: blue !important;
+  background-color: rgb(5, 5, 201) !important;
   color:rgb(179,43,49) !important;
   text-decoration:none;
   font-weight:bolder;
+  border:none !important;
 
 
 }
@@ -1162,9 +1163,13 @@ border-bottom:solid 1px rgb(114, 112, 112);
 
 
 }
-.dropdown a:hover {background-color: blue !important;
+.dropdown a:hover {
+background-color:  rgb(5, 5, 201) !important;;
 color:rgb(179,43,49) !important;
-text-decoration:none;}
+text-decoration:none;
+border:none !important;
+
+}
 
 
 
