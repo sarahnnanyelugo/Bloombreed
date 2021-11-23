@@ -1108,14 +1108,19 @@ footer ul li a{
   transition: 0.3s;
   font-weight:bold;
   margin-top:40px;
-
 }
-
+.sidenav .border1{
+  border-bottom:solid 1px black;
+}
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: blue;
-}
+.sidenav .border1:hover {
+  background-color: blue !important;
+  color:rgb(179,43,49) !important;
+  text-decoration:none;
+  font-weight:bolder;
 
+
+}
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn{
   position: absolute;
@@ -1133,19 +1138,21 @@ footer ul li a{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:#fff!important;
-  width: 200%;
+  background-color:rgb(40, 50, 138)!important;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 4;
-  border-radius:10px;
-
+border-radius:10px;
+max-height:150px;
 }
 .dropdown-content a{
-color:rgb(36,43,105)!important;
+color:white!important;
 font-weight:bold;
 font-size:10px;
 margin-top:7px;
+border-bottom:solid 1px rgb(114, 112, 112);
+
+/* border-bottom:solid 1px red; */
 
 
 
@@ -1155,7 +1162,15 @@ margin-top:7px;
 
 
 }
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {background-color: blue !important;
+color:rgb(179,43,49) !important;
+text-decoration:none;}
+
+
+
+
+
+
 
 .show {display: block;}
 
