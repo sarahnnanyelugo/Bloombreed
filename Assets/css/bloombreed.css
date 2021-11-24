@@ -25,6 +25,12 @@ display:auto
 .b{
   margin:10px;
 }
+.mobilelist{
+  display:block;
+}
+.weblist{
+  display:none;
+}
 }
 
 @media only screen and (min-width:601px) {
@@ -54,6 +60,12 @@ display:none;
 }
 .b{
   margin:100px 30px 0 0;
+}
+.weblist{
+  display:block;
+}
+.mobilelist{
+  display:none;
 }
 }
 
