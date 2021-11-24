@@ -31,6 +31,22 @@ display:auto
 .weblist{
   display:none;
 }
+.prev1, .next1{
+  display:none;
+}
+.google{
+  font-size:15px;
+  text-transform:capitalize;
+}
+.google1{
+text-align:center;
+margin-left:47px !important;
+margin-top:-20px;
+}
+.googlepic{
+  margin-left:30px !important;
+
+}
 }
 
 @media only screen and (min-width:601px) {
