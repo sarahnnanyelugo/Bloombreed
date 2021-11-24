@@ -22,6 +22,9 @@ display:auto
 .heading3{
   display:block;
 }
+.b{
+  margin:10px;
+}
 }
 
 @media only screen and (min-width:601px) {
@@ -48,6 +51,9 @@ display:auto
 .heading3
 {
 display:none;
+}
+.b{
+  margin:100px 30px 0 0;
 }
 }
 
@@ -646,12 +652,15 @@ border: solid 1px rgb(179,43,49) !important;
 #join{
   width:100%;
   min-height:350px;
+
   margin-right:0 !important;
   background-image: url("../img/complab.png");
   background-size:cover;
+  background-position:center center;
+
+background-repeat:no-repeat;
   margin-bottom:80px;
   margin-top:60px;
-  /* opacity:0.6; */
 }
 #join h4{
   border-top:solid 2px  rgb(209, 205, 205);
@@ -664,7 +673,9 @@ border: solid 1px rgb(179,43,49) !important;
 .b{
   border:solid 2px white !important;
   color:white !important;
-  margin:100px 30px 0 0;
+
+    /* margin:10px; */
+
   font-weight:bold;
 }
 .b:hover{
@@ -748,6 +759,9 @@ text-decoration:none;
   background-image: url("../img/lib2.png");
   background-size:cover;
   margin-bottom:40px;
+  background-repeat:no-repeat;
+  background-position:center center;
+
   /* opacity:0.6; */
 }
 #join2 h4{
@@ -766,6 +780,8 @@ text-decoration:none;
   margin-right:0 !important;
   background-image: url("../img/college.png");
   background-size:cover;
+  background-position:center center;
+
   margin-bottom:40px;
   /* opacity:0.6; */
 }
@@ -783,6 +799,8 @@ text-decoration:none;
   margin-right:0 !important;
   background-image: url("../img/cheque2.png");
   background-size:cover;
+  background-position:center center;
+
   margin-bottom:60px;
   /* opacity:0.6; */
 }
@@ -800,6 +818,7 @@ text-decoration:none;
   background: transparent url('../img/charity2.png') 0% 0% no-repeat padding-box;
   opacity: 1;
   margin-bottom:60px;
+  background-position:center center;
 
   /* opacity:0.6; */
 }
@@ -817,6 +836,7 @@ text-decoration:none;
   background: transparent url('../img/college2.png') 0% 0% no-repeat padding-box;
   opacity: 1;
   margin-bottom:60px;
+  background-position:center center;
 
   /* opacity:0.6; */
 }
@@ -836,6 +856,7 @@ text-decoration:none;
   opacity: 1;
   margin-bottom:60px;
   background-size:cover;
+  background-position:center center;
 
   /* opacity:0.6; */
 }
@@ -854,6 +875,7 @@ text-decoration:none;
   opacity: 1;
   margin-bottom:60px;
   background-size:cover;
+  background-position:center center;
 
 }
 #join8 h4{
@@ -871,6 +893,7 @@ text-decoration:none;
   opacity: 1;
   margin-bottom:60px;
   background-size:cover;
+  background-position:center center;
 
 }
 #join9 h4{
@@ -888,6 +911,7 @@ text-decoration:none;
   opacity: 1;
   margin-bottom:60px;
   background-size:cover;
+  background-position:center center;
 
 }
 #join10 h4{
@@ -905,6 +929,7 @@ text-decoration:none;
   opacity: 1;
   margin-bottom:60px;
   background-size:cover;
+  background-position:center center;
 
 }
 #join11 h4{
@@ -923,6 +948,7 @@ text-decoration:none;
   opacity: 1;
   margin-bottom:60px;
   background-size:cover;
+  background-position:center center;
 
 }
 #join12 h4{
@@ -940,6 +966,7 @@ text-decoration:none;
   opacity: 1;
   margin-bottom:60px;
   background-size:cover;
+  background-position:center center;
 
 }
 #join13 h4{
@@ -958,6 +985,7 @@ text-decoration:none;
   opacity: 1;
   margin-bottom:60px;
   background-size:cover;
+  background-position:center center;
 
 }
 #join14 h4{
@@ -975,6 +1003,7 @@ text-decoration:none;
   opacity: 1;
   margin-bottom:60px;
   background-size:cover;
+  background-position:center center;
 
 }
 #join15 h4{
@@ -992,6 +1021,7 @@ text-decoration:none;
   background: transparent url('../img/libf.png') 0% 0% no-repeat padding-box;
   opacity: 1;
   margin-bottom:60px;
+  background-position:center center;
 
 }
 #join16 h4{
