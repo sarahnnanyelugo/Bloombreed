@@ -47,6 +47,18 @@ margin-top:-20px;
   margin-left:30px !important;
 
 }
+#acts4{
+  margin-left:-12px !important;
+}
+#acts3{
+  margin-left:20px !important;
+}
+#acts2{
+  left:-20px !important ;
+}
+.red2{
+  margin-left:20px;
+}
 }
 
 @media only screen and (min-width:601px) {
