@@ -59,6 +59,20 @@ margin-top:-20px;
 .red2{
   margin-left:20px;
 }
+
+.log{
+  display:block;
+}
+.log2{
+  display:none !important;
+}
+
+.webform{
+  display:none;
+}
+.webform2{
+  display:block;
+}
 }
 
 @media only screen and (min-width:601px) {
@@ -95,6 +109,20 @@ display:none;
 .mobilelist{
   display:none;
 }
+.log{
+  display:none !important;
+}
+.log2{
+  display:block;
+}
+
+.webform{
+  display:block;
+}
+.webform2{
+  display:none;
+}
+
 }
 
 
