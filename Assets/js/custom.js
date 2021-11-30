@@ -49,6 +49,29 @@ includeHTML();
 			jQuery('html, body').animate({scrollTop: 0}, duration);
 			return false;
 		})
+
+
+    var pick=false;
+    $("#searchButton").click(function(e){
+      pick=!pick;
+      console.log(pick)
+      if(pick==true){
+        $("#searchbar").addClass("Search-container");
+        $("#searchbar").removeClass("hid")
+          }
+          else{
+          $("#searchbar").removeClass("Search-container")
+          $("#searchbar").addClass("hid");
+          }
+    })
+    $("#closeSearch").click(function(e){
+      pick=false;
+      $("#searchbar").removeClass("Search-container")
+          $("#searchbar").addClass("hid");
+    })
+
+
+
 	});
 
 
@@ -130,3 +153,8 @@ window.onclick = function(event) {
     }
   }
 }
+
+
+
+
+

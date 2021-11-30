@@ -3,6 +3,12 @@
 display:block;
 
 }
+.sidenavright{
+  display:none;
+}
+.forminquire{
+  margin-bottom:60px !important;
+}
 .istpic{
 margin-top:0px !important;
 }
@@ -395,7 +401,7 @@ background-color:rgb(36,43,105)!important;
 
 
 
-  .sidenav {
+  .sidenavright {
     position: fixed;
     z-index: 1;
     top:200px !important;
@@ -404,7 +410,7 @@ background-color:rgb(36,43,105)!important;
     border-radius:5px;
   }
   
-  .sidenav a {
+  .sidenavright a {
     text-decoration: none;
     color: white;
     font-size:10px;
@@ -415,7 +421,7 @@ background-color:rgb(36,43,105)!important;
 
   }
 
-  .sidenav a:hover {
+  .sidenavright a:hover {
     color: #064579;
     background-color:white !important;
 border: solid 1px rgb(179,43,49) !important;
@@ -425,8 +431,8 @@ border: solid 1px rgb(179,43,49) !important;
 
   
   @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenavright {padding-top: 15px;}
+    .sidenavright a {font-size: 18px;}
   }
 
 
@@ -1481,227 +1487,256 @@ border-bottom:solid 1px rgb(114, 112, 112);
 
 
 
+/*for searchbar*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-x;
+.hid{
+  display:none !important;
 }
+.Search-container{
+  width:100%;
+  min-height:800px;
+  top:90px;
+  background-color:rgb(1, 1, 29);
+  z-index:1000;
+  position:fixed;
+  opacity:0.6;
+  display:block;
+  transition:  3s ease;
+  left: 0;
+  margin:0
+
+}
+.Search-container input[type=text] {
+ /* padding-top:60px !important; */
+ background-color:transparent !important;
+ border:none;
+ font-size:35px;
+}
+.icofont-brand-nexus{
+  font-size:30px;
+  color:white;
+  float:right;
+  padding-top:20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
