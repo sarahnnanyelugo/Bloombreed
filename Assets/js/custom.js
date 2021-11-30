@@ -64,6 +64,7 @@ includeHTML();
           $("#searchbar").addClass("hid");
           }
     })
+
     $("#closeSearch").click(function(e){
       pick=false;
       $("#searchbar").removeClass("Search-container")
