@@ -69,6 +69,7 @@ includeHTML();
       pick=false;
       $("#searchbar").removeClass("Search-container")
           $("#searchbar").addClass("hid");
+
     })
 
 
