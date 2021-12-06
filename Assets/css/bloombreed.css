@@ -185,6 +185,12 @@ h1, h2, h3, h4, h5, h6{
 color:rgb(179,43,49) !important;
 
   }
+
+  .activenav2{
+    color:(green) !important;
+    
+      }
+
   @media only screen and (max-width:500px) {
     /* For mobile phones: */
     .container-fluid .slideshow-container {
@@ -1196,9 +1202,13 @@ footer ul li a{
   border-top-right-radius:5px;
   border-bottom-right-radius:5px;
   border:hidden !important;
+  padding:10px
 
 }
+#Linput{
+  padding:22px !important;
 
+}
 
 
 

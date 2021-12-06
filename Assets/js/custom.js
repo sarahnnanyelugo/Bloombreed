@@ -31,25 +31,9 @@ function includeHTML() {
 }
 includeHTML();
 
-//for scroll-top
+
 
 	jQuery(document).ready(function() {
-		var offset = 100;
-		var duration = 500;
-		jQuery(window).scroll(function() {
-			if (jQuery(this).scrollTop() > offset) {
-				jQuery('#scroll-up').fadeIn(duration);
-			} else {
-				jQuery('#scroll-up').fadeOut(duration);
-			}
-		});
- 
-		jQuery('#scroll-up').click(function(event) {
-			event.preventDefault();
-			jQuery('html, body').animate({scrollTop: 0}, duration);
-			return false;
-		})
-
 
     var pick=false;
     $("#searchButton").click(function(e){
@@ -72,9 +56,83 @@ includeHTML();
 
     })
 
+    window.setTimeout(function(){
+      $("#about").removeClass("activenav")
+      $("#admission").removeClass("activenav")
+      $("#learning").removeClass("activenav")
+      $("#student").removeClass("activenav")
+      $("#protection").removeClass("activenav")
+      $("#gallery").removeClass("activenav")
+      $("#news").removeClass("activenav")
+
+      if($("#tag").val() =="about")
+      {
+        $("#about").addClass("activenav")
+
+      }
+      if($("#tag").val() =="admission")
+      {
+        $("#admission").addClass("activenav")
+      }
+      if( $("#tag").val()=="learning")
+      {
+        $("#learning").addClass("activenav")
+      }
+
+      if($("#tag").val() =="student")
+      {
+        $("#student").addClass("activenav")
+      }
 
 
-	});
+      if($("#tag").val() =="children")
+      {
+        $("#children").addClass("activenav")
+      }
+
+
+      if($("#tag").val() =="gallery")
+      {
+        $("#gallery").addClass("activenav")
+      }
+
+
+      if($("#tag").val() =="news")
+      {
+        $("#news").addClass("activenav")
+      }
+
+
+
+   },200);
+
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -83,14 +141,14 @@ includeHTML();
 
   function openNav() {
     document.getElementById("mySidenav").style.width = "80%";
-  
-  
+
+
   }
-  
+
   /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
-  
+
   
   }
 //mobilenav
