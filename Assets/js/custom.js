@@ -57,31 +57,31 @@ includeHTML();
     })
 
     window.setTimeout(function(){
-      $("#about").removeClass("activenav")
-      $("#admission").removeClass("activenav")
-      $("#learning").removeClass("activenav")
-      $("#student").removeClass("activenav")
-      $("#protection").removeClass("activenav")
-      $("#gallery").removeClass("activenav")
-      $("#news").removeClass("activenav")
+      $("#about").removeClass("activenavbar")
+      $("#admission").removeClass("activenavbar")
+      $("#learning").removeClass("activenavbar")
+      $("#student").removeClass("activenavbar")
+      $("#protection").removeClass("activenavbar")
+      $("#gallery").removeClass("activenavbar")
+      $("#news").removeClass("activenavbar")
 
       if($("#tag").val() =="about")
       {
-        $("#about").addClass("activenav")
+        $("#about").addClass("activenavbar")
 
       }
       if($("#tag").val() =="admission")
       {
-        $("#admission").addClass("activenav")
+        $("#admission").addClass("activenavbar")
       }
       if( $("#tag").val()=="learning")
       {
-        $("#learning").addClass("activenav")
+        $("#learning").addClass("activenavbar")
       }
 
       if($("#tag").val() =="student")
       {
-        $("#student").addClass("activenav")
+        $("#student").addClass("activenavbar")
       }
 
 
@@ -93,13 +93,13 @@ includeHTML();
 
       if($("#tag").val() =="gallery")
       {
-        $("#gallery").addClass("activenav")
+        $("#gallery").addClass("activenavbar")
       }
 
 
       if($("#tag").val() =="news")
       {
-        $("#news").addClass("activenav")
+        $("#news").addClass("activenavbar")
       }
 
 
