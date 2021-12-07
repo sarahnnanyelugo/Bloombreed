@@ -88,7 +88,9 @@
         <div class="col-md-10" style="top:50px">
             <small class="heading">INQUIRY</small>
             <h2 class="heading2"><span style="border-bottom:solid 2px rgb(237,165,0)">CONTACT</span> US</h2>
-            <form>
+
+
+            <form action="mailer.php" method="post">
 
             <div class="row">
                 <div class="col-md-12 flexy">
@@ -106,8 +108,8 @@
                       </div>
 
 
-                      <div class="col-md-4 col-12 "><input type="email" class="form-control" id="email" placeholder="Email*"></div>
-                      <div class="col-md-4 col-12 forminquire"> <input type="tel" class="form-control" id="phone" placeholder="Phone*">
+                      <div class="col-md-4 col-12 "><input type="email" class="form-control" name="email" placeholder="Email*"></div>
+                      <div class="col-md-4 col-12 forminquire"> <input type="tel" class="form-control" name="phone" placeholder="Phone*">
                       </div>
 
                   </div>
@@ -121,8 +123,8 @@
 
                     <div class="col-md-12 flexy">
                       <div class="col-md-4 ">&nbsp;</div>
-                        <div class="col-md-4 col-12 forminquire" style="margin-top:-55px !important"><input type="text" class="form-control" id="name" placeholder="Name*"></div>
-                        <div class="col-md-4 col-12 forminquire" style="margin-top:-55px !important"><input type="text" class="form-control" id="subject" placeholder="Subject*">
+                        <div class="col-md-4 col-12 forminquire" style="margin-top:-55px !important"><input type="text" class="form-control" name="name" placeholder="Name*"></div>
+                        <div class="col-md-4 col-12 forminquire" style="margin-top:-55px !important"><input type="text" class="form-control" name="subject" placeholder="Subject*">
                         </div>
 
                     </div>
@@ -141,7 +143,7 @@
                           </div>
 
                               <div class="col-md-8">
-                                      <textarea id="message" class="form-control" rows="6" placeholder="Message*"></textarea>
+                                      <textarea name="message" class="form-control" rows="6" placeholder="Message*"></textarea>
           
 
                               </div>
@@ -153,7 +155,7 @@
 
                 </div>
 
-              </form>
+              <!-- </form> -->
                 <div class="row">
                     <div class="col-md-12" style="display:flex; margin-top:25px; ">
                       <div class="col-md-4" style="background-color: rgb(36,43,105); color:white; margin-right:30px" id="follow"><h6  style="font-size:10px; font-weight:bolder; margin-top:20px">FOLLOW US</h6>
@@ -164,7 +166,7 @@
 
                         
                         </ul></div>
-                        <form action="?" method="POST">
+                        <!-- <form action="?" method="POST"> -->
                           <div id="html_element"></div>
                           <br>
                           <input type="submit" value="Submit" style="color:rgb(179,43,49)">
