@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" >
+<?php
+if (isset($_GET['success'])){
+    $success = $_GET['success'];
+}
 
+if (isset($_GET['error'])){
+    $error = $_GET['error'];
+}
+
+?>
 
 
 
@@ -88,7 +97,17 @@
         <div class="col-md-10" style="top:50px">
             <small class="heading">INQUIRY</small>
             <h2 class="heading2"><span style="border-bottom:solid 2px rgb(237,165,0)">CONTACT</span> US</h2>
+            <?php
+            if ($success != '' || $success != null){
+                echo '<div class="col-md-12 col-12 "><span class="text-success">'.$success.'</span></div><br>';
+            }
 
+            if ($error != '' || $error != null){
+                echo '<div class="col-md-4 col-12 "><span class="text-danger">'.$error.'</span></div><br>';
+            }
+
+            $success = $error = null;
+            ?>
 
             <form action="mailer.php" method="post">
 
