@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6{
 .activenavbar,.activenavbar a ,button .activenavbar{
 color:rgb(179,43,49) !important;
 font-weight:bolder !important;
-/* text-decoration:underline !important; */
+text-decoration:underline !important;
 
   }
 
