@@ -113,6 +113,9 @@ margin-top:-20px;
 .webform2{
   display:block;
 }
+#follow{
+  margin-right:0 !important
+}
 }
 
 @media only screen and (min-width:601px) {
@@ -181,14 +184,15 @@ h1, h2, h3, h4, h5, h6{
 .btn{
   font-family:Avenir;
 }
+.activenav{
+  color:rgb(179,43,49) !important;
+
+    }
+
 .activenavbar,.activenavbar a ,button .activenavbar{
 color:rgb(179,43,49) !important;
   }
 
-  .activenav2{
-    color:(green) !important;
-
-      }
 
   @media only screen and (max-width:500px) {
     /* For mobile phones: */

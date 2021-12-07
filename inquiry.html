@@ -56,7 +56,7 @@
 <!--divfor side nav-->
       <div class="sidenavright">
         <a href="#about" class="btn btn-sm" style="background-color:rgb(179,43,49);" id="searchButton"><i class="icofont-ui-search"></i><br>Search</a>
-        <a href="inquiry.html" class="btn btn-sm" style="background-color:rgb(179,43,49);"><i class="icofont-question-circle"></i><br>Inquire</a>
+        <a href="https://bloombreedschools.educare.school/enquiry" target="_blank" class="btn btn-sm" style="background-color:rgb(179,43,49);"><i class="icofont-question-circle"></i><br>Inquire</a>
         <a href="http://bloombreedschools.educare.school/admission-form" target="_blank" class="btn btn-sm" style="background-color:rgb(179,43,49);"><i class="icofont-drawing-tablet"></i><br>Apply</a>
         <a href="inquiry.html" class="btn btn-sm" style="background-color:rgb(179,43,49);"><i class="icofont-location-pin"></i><br>visit us</a>
       </div>
@@ -77,7 +77,7 @@
             <ul>
 
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="gallery2.html" class="activenav">INQUIRY</a></li>
+                <li><a href="gallery2.html" class="activenav">CONTACT US</a></li>
                 <li><a href="gallery2.html" >NEWS AND EVENTS</a></li>
 
             </ul>
@@ -104,7 +104,7 @@
 
                       </div>
                       <form class="col-md-4 col-12 "><input type="email" class="form-control" id="email" placeholder="Email*"></form>
-                      <form class="col-md-4 col-12 forminquire"> <input type="tel" class="form-control" id="phone" placeholder="phone*">
+                      <form class="col-md-4 col-12 forminquire"> <input type="tel" class="form-control" id="phone" placeholder="Phone*">
                       </form>
 
                   </div>
@@ -147,27 +147,27 @@
 
                 </div>
                 <div class="row">
-                    <div class="col-md-12" style="display:flex; margin-top:25px">
-                      <div class="col-md-4" style="background-color: rgb(36,43,105); color:white"><h6  style="font-size:10px; font-weight:bolder; margin-top:20px">FOLLOW US</h6>
+                    <div class="col-md-12" style="display:flex; margin-top:25px; ">
+                      <div class="col-md-4" style="background-color: rgb(36,43,105); color:white; margin-right:30px" id="follow"><h6  style="font-size:10px; font-weight:bolder; margin-top:20px">FOLLOW US</h6>
                         <ul class="list-unstyled list-inline" >
-                            <li class="list-inline-item"><img src="Assets/img/facebook.svg" height="20px"></li>
-                            <li class="list-inline-item"><img src="Assets/img/IG.svg" height="20px"></li>
-                            <li class="list-inline-item"><img src="Assets/img/linkdin.svg" height="20px"></li>
+                            <li class="list-inline-item"><img src="Assets/img/facebook.svg" height="30px"></li>
+                            <li class="list-inline-item"><img src="Assets/img/IG.svg" height="30px"></li>
+                            <li class="list-inline-item"><img src="Assets/img/linkdin.svg" height="30px"></li>
 
                         
                         </ul></div>
-                      <div class="col-md-2"><button onclick="sendMail()" class="btn btn-primary" style="background-color: rgb(36,43,105); font-weight:bolder">SEND MESSAGE</button></div>
-
+                        <form action="?" method="POST">
+                          <div id="html_element"></div>
+                          <br>
+                          <input type="submit" value="Submit" style="color:rgb(179,43,49)">
+                        </form>
+                        <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+                            async defer>
+                        </script>
                     </div>
+                    <!-- <div class="col-md-2" style="margin-top:20px"><button onclick="sendMail()" class="btn btn-primary" style="background-color: rgb(36,43,105); font-weight:bolder">SEND MESSAGE</button></div> -->
 
-                    <form action="?" method="POST">
-                      <div id="html_element"></div>
-                      <br>
-                      <input type="submit" value="Submit">
-                    </form>
-                    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
-                        async defer>
-                    </script>
+
                 </div>
 
 
