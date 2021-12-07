@@ -85,9 +85,9 @@ includeHTML();
       }
 
 
-      if($("#tag").val() =="children")
+      if($("#tag").val() =="protection")
       {
-        $("#children").addClass("activenav")
+        $("#protection").addClass("activenavbar")
       }
 
 
