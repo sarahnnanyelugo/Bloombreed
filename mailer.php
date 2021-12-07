@@ -1,7 +1,7 @@
 <?php
  
 if($_POST) {
-  $to = "gr8skills1@gmail.com"; // your mail here
+  $to = "info@bloombredschools.com"; // your mail here
   $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
   $subject ="Enquiry Message";
   $phone = filter_var($_POST["phone"], FILTER_SANITIZE_STRING);
